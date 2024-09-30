@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract DegenToken is ERC20, Ownable {
     string[] public redeemableItems;
 
-    constructor(address initialOwner) ERC20("Aryan Vishwakarma", "AK") Ownable() {
+    constructor(address initialOwner) ERC20("Vicky Kumar", "VK") Ownable() {
         redeemableItems.push("Item 1");
         redeemableItems.push("Item 2");
         redeemableItems.push("Item 3");
